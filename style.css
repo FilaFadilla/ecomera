@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* css */
+body	{
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+	width: 100%;
+	height: 100%;
+}
+
+
+.countainer	{
+	margin-top: 20px;
+	border: 1px solid black;
+	background-color: white;
+	width: 400px;
+	border-radius: 20px;
+}
+
+
+.judul{
+	padding: 15px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+	border-bottom: 1px solid black;
+	font-size: 30px;
+	background-color: cornflowerblue;
+	border-top-left-radius: 19px;
+	border-top-right-radius: 19px;
+
+}
+
+.gambar	{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-image: url(fila.jpg);
+	background-size: cover;
+	background-position: 1px;
+	width: 140px;
+	height: 140px;
+	border-radius: 10px;
+
+}
+
+
+.bio	{
+	display: flex;
+	justify-content: right;
+	padding-right: 10px;
+	margin-top: 1px;
+}
+
+
+.bio ul li	{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 19px;
+	line-height: 35px;
+	border-bottom: 1px solid black;
+}
+
+
+.tentang{
+	margin: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.saya	{
+	padding: 5px;
+	font-size: 15px;
+	border-bottom: 2px solid blue;
+	width: 120px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.isi	{
+	font-size: 14px;
+	margin-top: 2px;
+	box-sizing: border-box;
+	width: 310px;
+	line-height: 20px;
+}
+
+
+.sekolah	{
+	padding: 5px;
+	font-size: 15px;
+	border-bottom: 2px solid blue;
+	width: 120px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.skull	{
+	width: 300px;
+	font-size: 14px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	line-height: 20px;
+}
+
+
+.pengalaman {
+	margin: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.kerja	{
+	padding: 5px;
+	font-weight: bold;
+	border-bottom: 2px solid blue;
+	width: 150px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+
+.kerja1 {
+	width: 400px;
+	font-size: 15px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	line-height: 23px;
+	text-transform: capitalize;
+}
+
+.sosmed	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color:	crimson;
+	border-bottom-left-radius: 19px;
+	border-bottom-right-radius: 19px;
+
+}
+
+
+.instagram	{
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+.instagram a {
+	text-decoration: none;
+	color: white;
+}
